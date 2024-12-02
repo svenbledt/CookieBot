@@ -1,5 +1,5 @@
 // cookie bot: auto-play-through cookie clicker
-// see also https://github.com/prinzstani/CookieBot
+// see also https://github.com/svenbledt/CookieBot
 
 var AutoPlay;
 if (!AutoPlay) AutoPlay = {};
@@ -2306,10 +2306,10 @@ AutoPlay.launch = function() {
   AutoPlay.autoPlayer = setInterval(AutoPlay.run, 300); // 100 is too quick
   AutoPlay.findNextAchievement();
   l('versionNumber').innerHTML=
-    'v. '+Game.version+" (with autoplay v."+AutoPlay.version+")";
+    'v. '+Game.version+" (Mod v."+AutoPlay.version+")";
   l('versionNumber').innerHTML='v. '+Game.version+' <span '+
     Game.getDynamicTooltip('AutoPlay.whatTheBotIsDoing','this')+
-    ">(with autoplay v."+AutoPlay.version+")"+'</span>';
+    ">(Mod v."+AutoPlay.version+")"+'</span>';
   if (Game.version!=AutoPlay.gameVersion)
     AutoPlay.info("Warning: cookieBot is last tested with "+
       "cookie clicker version " + AutoPlay.gameVersion);

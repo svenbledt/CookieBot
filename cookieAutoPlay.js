@@ -46,7 +46,7 @@ AutoPlay.lumpHarvestAchievements = range(266,272).concat([396]);
 AutoPlay.lateAchievements = [262,491,367].concat(AutoPlay.lumpRelatedAchievements);
 
 // cookie bot starting here
-AutoPlay.robotName = "Automated ";
+AutoPlay.robotName = "[CH] ";
 AutoPlay.delay = 0;
 AutoPlay.night = false;
 AutoPlay.finished = false;

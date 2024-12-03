@@ -1,1 +1,0 @@
-Game.LoadMod('https://svenbledt.github.io/CookieBot/cookieAutoPlay.js');
